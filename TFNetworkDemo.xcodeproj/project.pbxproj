@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD9D8FD1DFAB41C00D53CFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9D8FC1DFAB41C00D53CFF /* main.m */; };
+		0AD9D9001DFAB41C00D53CFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9D8FF1DFAB41C00D53CFF /* AppDelegate.m */; };
+		0AD9D9031DFAB41C00D53CFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9D9021DFAB41C00D53CFF /* ViewController.m */; };
+		0AD9D9081DFAB41C00D53CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD9D9071DFAB41C00D53CFF /* Assets.xcassets */; };
+		0AD9D90B1DFAB41C00D53CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD9D9091DFAB41C00D53CFF /* LaunchScreen.storyboard */; };
+		0AD9D9161DFAB41C00D53CFF /* TFNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9D9151DFAB41C00D53CFF /* TFNetworkDemoTests.m */; };
+		0AD9D9211DFAB41C00D53CFF /* TFNetworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9D9201DFAB41C00D53CFF /* TFNetworkDemoUITests.m */; };
+		0AD9D9311DFAB4A900D53CFF /* TFNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9D9301DFAB4A900D53CFF /* TFNetworkEngine.m */; };
+		0AD9D9341DFAB4C200D53CFF /* TFNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9D9331DFAB4C200D53CFF /* TFNetworkRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD9D9121DFAB41C00D53CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD9D8F01DFAB41C00D53CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD9D8F71DFAB41C00D53CFF;
+			remoteInfo = TFNetworkDemo;
+		};
+		0AD9D91D1DFAB41C00D53CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD9D8F01DFAB41C00D53CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD9D8F71DFAB41C00D53CFF;
+			remoteInfo = TFNetworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD9D8F81DFAB41C00D53CFF /* TFNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD9D8FC1DFAB41C00D53CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AD9D8FE1DFAB41C00D53CFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AD9D8FF1DFAB41C00D53CFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AD9D9011DFAB41C00D53CFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AD9D9021DFAB41C00D53CFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AD9D9071DFAB41C00D53CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD9D90A1DFAB41C00D53CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AD9D90C1DFAB41C00D53CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD9D9111DFAB41C00D53CFF /* TFNetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFNetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD9D9151DFAB41C00D53CFF /* TFNetworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNetworkDemoTests.m; sourceTree = "<group>"; };
+		0AD9D9171DFAB41C00D53CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD9D91C1DFAB41C00D53CFF /* TFNetworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFNetworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD9D9201DFAB41C00D53CFF /* TFNetworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNetworkDemoUITests.m; sourceTree = "<group>"; };
+		0AD9D9221DFAB41C00D53CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD9D92F1DFAB4A900D53CFF /* TFNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFNetworkEngine.h; sourceTree = "<group>"; };
+		0AD9D9301DFAB4A900D53CFF /* TFNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFNetworkEngine.m; sourceTree = "<group>"; };
+		0AD9D9321DFAB4C200D53CFF /* TFNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFNetworkRequest.h; sourceTree = "<group>"; };
+		0AD9D9331DFAB4C200D53CFF /* TFNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFNetworkRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD9D8F51DFAB41C00D53CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD9D90E1DFAB41C00D53CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD9D9191DFAB41C00D53CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD9D8EF1DFAB41C00D53CFF = {
+			isa = PBXGroup;
+			children = (
+				0AD9D8FA1DFAB41C00D53CFF /* TFNetworkDemo */,
+				0AD9D9141DFAB41C00D53CFF /* TFNetworkDemoTests */,
+				0AD9D91F1DFAB41C00D53CFF /* TFNetworkDemoUITests */,
+				0AD9D8F91DFAB41C00D53CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AD9D8F91DFAB41C00D53CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD9D8F81DFAB41C00D53CFF /* TFNetworkDemo.app */,
+				0AD9D9111DFAB41C00D53CFF /* TFNetworkDemoTests.xctest */,
+				0AD9D91C1DFAB41C00D53CFF /* TFNetworkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AD9D8FA1DFAB41C00D53CFF /* TFNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0AD9D8FE1DFAB41C00D53CFF /* AppDelegate.h */,
+				0AD9D8FF1DFAB41C00D53CFF /* AppDelegate.m */,
+				0AD9D9011DFAB41C00D53CFF /* ViewController.h */,
+				0AD9D9021DFAB41C00D53CFF /* ViewController.m */,
+				0AD9D92E1DFAB49200D53CFF /* TFNetworkEngine */,
+				0AD9D9071DFAB41C00D53CFF /* Assets.xcassets */,
+				0AD9D9091DFAB41C00D53CFF /* LaunchScreen.storyboard */,
+				0AD9D90C1DFAB41C00D53CFF /* Info.plist */,
+				0AD9D8FB1DFAB41C00D53CFF /* Supporting Files */,
+			);
+			path = TFNetworkDemo;
+			sourceTree = "<group>";
+		};
+		0AD9D8FB1DFAB41C00D53CFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD9D8FC1DFAB41C00D53CFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AD9D9141DFAB41C00D53CFF /* TFNetworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD9D9151DFAB41C00D53CFF /* TFNetworkDemoTests.m */,
+				0AD9D9171DFAB41C00D53CFF /* Info.plist */,
+			);
+			path = TFNetworkDemoTests;
+			sourceTree = "<group>";
+		};
+		0AD9D91F1DFAB41C00D53CFF /* TFNetworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD9D9201DFAB41C00D53CFF /* TFNetworkDemoUITests.m */,
+				0AD9D9221DFAB41C00D53CFF /* Info.plist */,
+			);
+			path = TFNetworkDemoUITests;
+			sourceTree = "<group>";
+		};
+		0AD9D92E1DFAB49200D53CFF /* TFNetworkEngine */ = {
+			isa = PBXGroup;
+			children = (
+				0AD9D92F1DFAB4A900D53CFF /* TFNetworkEngine.h */,
+				0AD9D9301DFAB4A900D53CFF /* TFNetworkEngine.m */,
+				0AD9D9321DFAB4C200D53CFF /* TFNetworkRequest.h */,
+				0AD9D9331DFAB4C200D53CFF /* TFNetworkRequest.m */,
+			);
+			path = TFNetworkEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD9D8F71DFAB41C00D53CFF /* TFNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD9D9251DFAB41C00D53CFF /* Build configuration list for PBXNativeTarget "TFNetworkDemo" */;
+			buildPhases = (
+				0AD9D8F41DFAB41C00D53CFF /* Sources */,
+				0AD9D8F51DFAB41C00D53CFF /* Frameworks */,
+				0AD9D8F61DFAB41C00D53CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFNetworkDemo;
+			productName = TFNetworkDemo;
+			productReference = 0AD9D8F81DFAB41C00D53CFF /* TFNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AD9D9101DFAB41C00D53CFF /* TFNetworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD9D9281DFAB41C00D53CFF /* Build configuration list for PBXNativeTarget "TFNetworkDemoTests" */;
+			buildPhases = (
+				0AD9D90D1DFAB41C00D53CFF /* Sources */,
+				0AD9D90E1DFAB41C00D53CFF /* Frameworks */,
+				0AD9D90F1DFAB41C00D53CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD9D9131DFAB41C00D53CFF /* PBXTargetDependency */,
+			);
+			name = TFNetworkDemoTests;
+			productName = TFNetworkDemoTests;
+			productReference = 0AD9D9111DFAB41C00D53CFF /* TFNetworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AD9D91B1DFAB41C00D53CFF /* TFNetworkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD9D92B1DFAB41C00D53CFF /* Build configuration list for PBXNativeTarget "TFNetworkDemoUITests" */;
+			buildPhases = (
+				0AD9D9181DFAB41C00D53CFF /* Sources */,
+				0AD9D9191DFAB41C00D53CFF /* Frameworks */,
+				0AD9D91A1DFAB41C00D53CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD9D91E1DFAB41C00D53CFF /* PBXTargetDependency */,
+			);
+			name = TFNetworkDemoUITests;
+			productName = TFNetworkDemoUITests;
+			productReference = 0AD9D91C1DFAB41C00D53CFF /* TFNetworkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AD9D8F01DFAB41C00D53CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					0AD9D8F71DFAB41C00D53CFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					0AD9D9101DFAB41C00D53CFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AD9D8F71DFAB41C00D53CFF;
+					};
+					0AD9D91B1DFAB41C00D53CFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AD9D8F71DFAB41C00D53CFF;
+					};
+				};
+			};
+			buildConfigurationList = 0AD9D8F31DFAB41C00D53CFF /* Build configuration list for PBXProject "TFNetworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AD9D8EF1DFAB41C00D53CFF;
+			productRefGroup = 0AD9D8F91DFAB41C00D53CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD9D8F71DFAB41C00D53CFF /* TFNetworkDemo */,
+				0AD9D9101DFAB41C00D53CFF /* TFNetworkDemoTests */,
+				0AD9D91B1DFAB41C00D53CFF /* TFNetworkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD9D8F61DFAB41C00D53CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD9D90B1DFAB41C00D53CFF /* LaunchScreen.storyboard in Resources */,
+				0AD9D9081DFAB41C00D53CFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD9D90F1DFAB41C00D53CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD9D91A1DFAB41C00D53CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD9D8F41DFAB41C00D53CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD9D9031DFAB41C00D53CFF /* ViewController.m in Sources */,
+				0AD9D9001DFAB41C00D53CFF /* AppDelegate.m in Sources */,
+				0AD9D9341DFAB4C200D53CFF /* TFNetworkRequest.m in Sources */,
+				0AD9D9311DFAB4A900D53CFF /* TFNetworkEngine.m in Sources */,
+				0AD9D8FD1DFAB41C00D53CFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD9D90D1DFAB41C00D53CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD9D9161DFAB41C00D53CFF /* TFNetworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD9D9181DFAB41C00D53CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD9D9211DFAB41C00D53CFF /* TFNetworkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD9D9131DFAB41C00D53CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD9D8F71DFAB41C00D53CFF /* TFNetworkDemo */;
+			targetProxy = 0AD9D9121DFAB41C00D53CFF /* PBXContainerItemProxy */;
+		};
+		0AD9D91E1DFAB41C00D53CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD9D8F71DFAB41C00D53CFF /* TFNetworkDemo */;
+			targetProxy = 0AD9D91D1DFAB41C00D53CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AD9D9091DFAB41C00D53CFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD9D90A1DFAB41C00D53CFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AD9D9231DFAB41C00D53CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AD9D9241DFAB41C00D53CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AD9D9261DFAB41C00D53CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFNetworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = afei.com.TFNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AD9D9271DFAB41C00D53CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFNetworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = afei.com.TFNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AD9D9291DFAB41C00D53CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = afei.com.TFNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFNetworkDemo.app/TFNetworkDemo";
+			};
+			name = Debug;
+		};
+		0AD9D92A1DFAB41C00D53CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = afei.com.TFNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFNetworkDemo.app/TFNetworkDemo";
+			};
+			name = Release;
+		};
+		0AD9D92C1DFAB41C00D53CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = afei.com.TFNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFNetworkDemo;
+			};
+			name = Debug;
+		};
+		0AD9D92D1DFAB41C00D53CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = afei.com.TFNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFNetworkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AD9D8F31DFAB41C00D53CFF /* Build configuration list for PBXProject "TFNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD9D9231DFAB41C00D53CFF /* Debug */,
+				0AD9D9241DFAB41C00D53CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD9D9251DFAB41C00D53CFF /* Build configuration list for PBXNativeTarget "TFNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD9D9261DFAB41C00D53CFF /* Debug */,
+				0AD9D9271DFAB41C00D53CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AD9D9281DFAB41C00D53CFF /* Build configuration list for PBXNativeTarget "TFNetworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD9D9291DFAB41C00D53CFF /* Debug */,
+				0AD9D92A1DFAB41C00D53CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AD9D92B1DFAB41C00D53CFF /* Build configuration list for PBXNativeTarget "TFNetworkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD9D92C1DFAB41C00D53CFF /* Debug */,
+				0AD9D92D1DFAB41C00D53CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AD9D8F01DFAB41C00D53CFF /* Project object */;
+}
